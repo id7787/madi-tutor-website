@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: madi-tutor
+    env: static
+    buildCommand: ""
+    staticPublishPath: ./build
